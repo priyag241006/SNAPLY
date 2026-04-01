@@ -53,35 +53,34 @@ The application is built with a focus on **Information Hierarchy**, ensuring tha
 Ensure you have Python installed, then run:
 ```bash
 pip install flask
-Step 2: Clone the Repository
-Bash
-git clone [https://github.com/priyag241006/SNAPLY.git](https://github.com/priyag241006/SNAPLY.git)
-cd SNAPLY
-Step 3: Run the Application
-Bash
+Step 2: Run the Application
 python app.py
-Open http://localhost:5000 in your browser.
+Step 3: Open in Browser
 
-How to Use
-Create a Folder: Enter a project name in the "Step 1" box and click Create Folder.
+Go to:
 
-Select Folder: Click on your folder name in the sidebar to unlock the workspace.
-
-Capture Media: Click Turn On Camera and use Snap Photo to save an image directly into the active folder.
-
-Upload Media: Use the Upload File button to add existing images from your computer.
-
-Manage Files: Hover over any photo to see the Delete (×) button or use the Delete Folder button in the header to remove an entire set.
-
+http://localhost:5000
+ How to Use
+Create Folder:
+Enter a project name in the "Step 1" box and click Create Folder
+Select Folder:
+Click on a folder from the sidebar to activate it
+Capture Media:
+Click Turn On Camera → then Snap Photo to save images
+Upload Media:
+Use Upload File to add images from your device
+Manage Files:
+Hover on images → Click to delete
+Use Delete Folder to remove entire folder
 Project Structure
-Plaintext
 SNAPLY/
-├── app.py              # Flask Backend & File Logic
+├── app.py              # Flask Backend & File Handling
 ├── static/
-│   ├── css/style.css   # Midnight Theme & Layout
-│   └── js/script.js    # Camera API & Frontend Logic
+│   ├── css/style.css   # Styling (Midnight Theme)
+│   └── js/script.js    # Frontend Logic & Camera API
 ├── templates/
-│   └── index.html      # Dashboard User Interface
-└── uploads/            # Local storage for your albums (Git Ignored)
-Author
-Priya Gundale – GitHub Profile
+│   └── index.html      # Main UI
+└── uploads/            # Stores user media (ignored in Git)
+ Author
+
+Priya Gundale GitHub: https://github.com/priyag241006
