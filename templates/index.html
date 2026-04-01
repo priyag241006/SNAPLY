@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <title>SNAPLY | Dashboard</title>
+</head>
+<body>
+    <div class="glow-bg"></div>
+    <nav class="glass-nav">
+        <div class="logo">SNAPLY</div>
+        <div class="links"><a href="/">Home</a><a href="/about">About</a></div>
+    </nav>
+
+    <div class="main-container">
+        <section class="creation-zone glass">
+            <h2>Step 1: Create New Folder</h2>
+            <div class="input-group">
+                <input type="text" id="albumName" placeholder="Enter folder name...">
+                <button class="btn-glow" onclick="createNewAlbum()">Create Folder</button>
+            </div>
+        </section>
+
+        <div class="dashboard-grid">
+            <aside class="sidebar glass">
+                <h3>Library</h3>
+                <div id="albumList"></div>
+            </aside>
+
+            <main class="workspace glass">
+                <div id="empty-hint">Select a folder from the library to unlock workspace.</div>
+                
+                <div id="capture-area" style="display:none;">
+                    <div class="work-header">
+                        <h2 id="activeFolderTitle">Folder</h2>
+                        <button class="btn-danger-outline" onclick="deleteCurrentFolder()">Delete Folder</button>
+                    </div>
+
+                    <div class="camera-card">
+                        <video id="video" autoplay playsinline></video>
+                        <div class="camera-controls">
+                            <button id="btnOn" class="btn-action" onclick="startCamera()">Turn On Camera</button>
+                            <button id="btnOff" class="btn-danger" onclick="stopCamera()" style="display:none;">Turn Off</button>
+                            <button class="btn-capture" onclick="takeSnap()">Snap Photo</button>
+                            
+                            <button class="btn-outline" onclick="document.getElementById('fileIn').click()">Upload File</button>
+                            <input type="file" id="fileIn" hidden onchange="uploadFromFile(this)" accept="image/*">
+                        </div>
+                    </div>
+                    <div id="photoGrid" class="gallery-grid"></div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div id="status-bubble"></div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
