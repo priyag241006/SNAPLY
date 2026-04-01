@@ -64,27 +64,25 @@ http://localhost:5000
 
 ---
 
- ## **How to Use**
-###Create Folder:
+##  How to Use
 
-*Enter a project name in the "Step 1" box and click Create Folder
+###  Create Folder
+- Enter a project name in the **"Step 1"** box  
+- Click **Create Folder**
 
-###Select Folder:
+###  Select Folder
+- Click on a folder from the sidebar to activate it
 
-*Click on a folder from the sidebar to activate it
+###  Capture Media
+- Click **Turn On Camera**  
+- Then click **Snap Photo** to save images
 
-###Capture Media:
+###  Upload Media
+- Use **Upload File** to add images from your device
 
-*Click Turn On Camera → then Snap Photo to save images
-
-###Upload Media:
-
-*Use Upload File to add images from your device
-
-###Manage Files:
-
-*Hover on images → Click to delete
-*Use Delete Folder to remove entire folder
+###  Manage Files
+- Hover over images → Click **Delete**  
+- Use **Delete Folder** to remove the entire folder
 
 ---
 
