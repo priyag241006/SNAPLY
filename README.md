@@ -11,16 +11,11 @@ The application is built with a focus on **Information Hierarchy**, ensuring tha
 
 ---
 
-## **Visual Experience & Interface**
 
-### 🎨 **Modern Midnight Dashboard**
-*Once you upload your screenshots to GitHub, replace the placeholder links below to show off your UI.*
 
-| **Feature** | **Snapshot Link** |
-| :--- | :--- |
-| **Main Dashboard** | ![Main UI](URL_TO_YOUR_IMAGE_1) |
-| **Live Camera Capture** | ![Camera Active](URL_TO_YOUR_IMAGE_2) |
-| **Project Library** | ![Gallery View](URL_TO_YOUR_IMAGE_3) |
+
+ **Snapshots** |
+
 
 ---
 
@@ -72,15 +67,20 @@ Use Upload File to add images from your device
 Manage Files:
 Hover on images → Click to delete
 Use Delete Folder to remove entire folder
-Project Structure
-SNAPLY/
-├── app.py              # Flask Backend & File Handling
-├── static/
-│   ├── css/style.css   # Styling (Midnight Theme)
-│   └── js/script.js    # Frontend Logic & Camera API
-├── templates/
-│   └── index.html      # Main UI
-└── uploads/            # Stores user media (ignored in Git)
- Author
 
-Priya Gundale GitHub: https://github.com/priyag241006
+## Project Structure
+
+```
+SNAPLY/
+├── app.py              # Flask Backend & File Logic
+├── static/
+│   ├── css/style.css   # Midnight Theme & Layout
+│   └── js/script.js    # Camera API & Frontend Logic
+├── templates/
+│   └── index.html      # Dashboard User Interface
+└── uploads/            # Local storage for your albums
+```
+## Author
+
+Priya Gundale
+https://github.com/priyag241006
