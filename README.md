@@ -1,6 +1,11 @@
 # SNAPLY 📸
+A dark-themed media management web application built using **Python** and **Flask**.  
 
-A high-end, dark-themed media management web application built using **Python** and **Flask**. **SNAPLY** bridges the gap between hardware and software by allowing users to capture live snapshots directly from their browser and organize them into a custom local file system.
+**SNAPLY** is designed to make capturing and organizing images simple and efficient. In many situations, users need to manually sort and separate images after capturing them, which can be time-consuming.  
+
+SNAPLY solves this by allowing users to directly capture images into selected folders in real-time. As images are clicked, they are automatically stored in the chosen project folder, eliminating the need for manual sorting later.  
+
+This ensures a smoother, faster, and more organized workflow for users.
 
 ---
 
