@@ -10,7 +10,7 @@ This ensures a smoother, faster, and more organized workflow for users.
 ---
 
 ## **About**
-**SNAPLY** is an intuitive "Smart Gallery" designed for researchers, engineers, and creators. It provides a seamless, step-by-step workflow to create project-specific folders and capture real-time media without the need for external transfer tools. 
+**SNAPLY** is an intuitive "Smart Gallery". It provides a seamless, step-by-step workflow to create project-specific folders and capture real-time media without the need for external transfer tools. 
 
 The application is built with a focus on **Information Hierarchy**, ensuring that every captured image is instantly indexed and manageable through a premium glassmorphism interface.
 
