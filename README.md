@@ -65,7 +65,7 @@ http://localhost:5000
 ---
 
  ## **How to Use**
-##Create Folder:
+###Create Folder:
 
 *Enter a project name in the "Step 1" box and click Create Folder
 
@@ -73,15 +73,15 @@ http://localhost:5000
 
 *Click on a folder from the sidebar to activate it
 
-##Capture Media:
+###Capture Media:
 
 *Click Turn On Camera → then Snap Photo to save images
 
-##Upload Media:
+###Upload Media:
 
 *Use Upload File to add images from your device
 
-##Manage Files:
+###Manage Files:
 
 *Hover on images → Click to delete
 *Use Delete Folder to remove entire folder
