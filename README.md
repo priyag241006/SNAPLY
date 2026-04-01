@@ -43,7 +43,50 @@ The application is built with a focus on **Information Hierarchy**, ensuring tha
 | **OS / Shutil** | Server-side File System I/O operations |
 
 ---
+## **How to Run**
 
+### **Step 1: Install Flask**
+Ensure you have Python installed, then run:
+```bash
+pip install flask
+```
+### **Step 2: Run the Application**
+```bash
+python app.py
+```
+### **Step 3: Open in Browser**
+```bash
+Go to:
+
+http://localhost:5000
+```
+
+
+---
+
+ ## **How to Use**
+##Create Folder:
+
+*Enter a project name in the "Step 1" box and click Create Folder
+
+###Select Folder:
+
+*Click on a folder from the sidebar to activate it
+
+##Capture Media:
+
+*Click Turn On Camera → then Snap Photo to save images
+
+##Upload Media:
+
+*Use Upload File to add images from your device
+
+##Manage Files:
+
+*Hover on images → Click to delete
+*Use Delete Folder to remove entire folder
+
+---
 
 ## Project Structure
 
