@@ -18,9 +18,9 @@ The application is built with a focus on **Information Hierarchy**, ensuring tha
 
 ## **Snapshots of Snaply** |
 <img width="400" height="995" alt="Screenshot 2026-04-01 213805" src="https://github.com/user-attachments/assets/8e0c257b-877e-4f80-b796-a49a2e7dc6e6" />
-<img width="400" height="810" alt="Screenshot 2026-04-01 213825" src="https://github.com/user-attachments/assets/c694e875-3c2f-40af-b0bb-dab7d3190290" />
+<img width="500" height="810" alt="Screenshot 2026-04-01 213825" src="https://github.com/user-attachments/assets/c694e875-3c2f-40af-b0bb-dab7d3190290" />
 <img width="400" height="764" alt="Screenshot 2026-04-01 213853" src="https://github.com/user-attachments/assets/3faddc3d-a4a3-4eb1-a12e-8647ba58c27c" />
-<img width="400" height="758" alt="Screenshot 2026-04-01 214515" src="https://github.com/user-attachments/assets/2d165f31-064b-4a52-b055-904ee9e714fe" />
+<img width="600" height="758" alt="Screenshot 2026-04-01 214515" src="https://github.com/user-attachments/assets/2d165f31-064b-4a52-b055-904ee9e714fe" />
 
 
 
